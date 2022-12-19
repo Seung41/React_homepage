@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/ci_w.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
