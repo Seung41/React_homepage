@@ -341,6 +341,65 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/************ Summary Css ************/
+.summary {
+  background: linear-gradient(90.21deg, #fdcd51 -5.91%, #eb6422 111.58%);
+  padding: 50px;
+  position: relative;
+}
+.summary-bx {
+  background: #151515;
+  border-radius: 64px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 60px 50px;
+}
+.summary h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.summary p {
+    color: #B8B8B8;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.summary div button {
+  font-weight: 700;
+  float: left;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.summary div button span {
+  z-index: 1;
+  position: relative;
+}
+.summary div button:hover {
+  color: #fff;
+}
+.summary div button::before {
+  content: "";
+  background: linear-gradient(90.21deg, #fdcd51 -5.91%, #eb6422 111.58%);
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.summary div button:hover::before {
+  width: 100%;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -369,7 +428,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 25%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -408,9 +467,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .nav-link#projects-tabs-tab-third {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link#projects-tabs-tab-fourth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }

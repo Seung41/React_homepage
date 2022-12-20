@@ -19,7 +19,7 @@ export const Skills = () => {
         tablet: {
             breakpoint: { max: 1024, min: 464 },
             items: 2
-        },
+        }, 
         mobile: {
             breakpoint: { max: 464, min: 0 },
             items: 1
@@ -33,7 +33,7 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                                TEAM Skill
                             </h2>
                             <p>dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">

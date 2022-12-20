@@ -45,7 +45,7 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={6}>
-                        <span className="tagline">Welcome to ERP Developer team</span>
+                        <span className="tagline">Welcome to ERP Development team</span>
                         <h1>{'ERP 개발팀 '}<span className="wrap">{text}</span></h1>
                         <p>ERP 개발팀 </p>
                         <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
