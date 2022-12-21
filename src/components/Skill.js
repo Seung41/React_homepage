@@ -35,7 +35,9 @@ export const Skills = () => {
                             <h2>
                                 TEAM Skill
                             </h2>
-                            <p>dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy </p>
+                            <p>조직들이 회계, 조달 및 제조 등 일상 업무 활동을 관리하기 위해 사용하는 시스템 및 소프트웨어를 개발 및 운영합니다.
+
+                            </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={main1} alt="Image" />

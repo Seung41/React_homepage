@@ -359,12 +359,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .summary p {
-    color: #B8B8B8;
-    text-align: left;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
+  color: #B8B8B8;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 2em;
+  margin: 14px 0 35px 0;
+}
+.summary strong {
+  font-size: 35px;
+  padding-right: 20px;
 }
 .summary div button {
   font-weight: 700;
@@ -419,6 +423,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+}
+.project p.txtLeft {
+  text-align: left;
+  width: 100%
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -531,7 +539,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #fdcd51 -5.91%, #eb6422 111.58%);
   padding: 60px 0 200px 0;
@@ -680,6 +688,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+/************ DashBoard Css ************/
+.dashboard {
+  margin-top: 0;
+  background: linear-gradient(90.21deg, #fdcd51 -5.91%, #eb6422 111.58%);
+  padding: 200px 0 200px 0;
+}
+.dashboard-bx {
+  background: #151515;
+  border-radius: 64px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 60px 50px;
+}
+.dashboard h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.dashboard p {
+  color: #B8B8B8;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 2em;
+  margin: 14px 0 35px 0;
 }
 
 /* .App {

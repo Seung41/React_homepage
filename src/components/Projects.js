@@ -93,8 +93,8 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Part Member</h2>
-                        <p>dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy</p>
+                        <h2>Member</h2>
+                        <p>ERP 개발팀은 현재 총 인원 13명으로 구성되어 있으며, 각 4개의 파트로 구분되어 있습니다.</p>
                         <Row className="align-items-center">
                             <Col md={6}>
                                 <img src={teamLeaderImg} alt="Contact Us" />
@@ -103,7 +103,7 @@ export const Projects = () => {
                                 <h3>Team Leader</h3>
                                 <h4>Kim Yutaek</h4>
                                 <br />
-                                <p>dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy</p>
+                                <p className="txtLeft">언제나 밝은 미소로 직원들을 맞이하여 주시며, 팀원들을 이끌어주시고 소통에 힘써주시는 팀장님의 사랑 속에서 늘 가족적인 분위기로 웃음이 끊일 날이 없습니다.</p>
                             </Col>
                         </Row>
                         <br /><br />
@@ -114,10 +114,10 @@ export const Projects = () => {
                                         <Nav.Link eventKey="first">Manage</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="second">Front-end</Nav.Link>
+                                        <Nav.Link eventKey="second">FrontEnd</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="third">Back-end</Nav.Link>
+                                        <Nav.Link eventKey="third">BackEnd</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link eventKey="fourth">QA</Nav.Link>
